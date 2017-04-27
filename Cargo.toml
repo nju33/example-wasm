@@ -1,0 +1,11 @@
+[package]
+name = "wasm-test"
+version = "0.0.0"
+authors = ["nju33 <nju33.ki@gmail.com>"]
+
+[[bin]]
+name = "main"
+path = "src/rust/main.rs"
+
+[dependencies]
+rand = "0.3.0"
